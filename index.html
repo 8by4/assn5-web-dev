@@ -1,16 +1,74 @@
 <!DOCTYPE html>
+<!--
+  Name: Aidan Quinn
+  Date: 10.3.2025
+  CSC 372-01
+
+  This is the index.html page for my fifth assignment where we make a page that displays rock paper
+  scissors.
+-->
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="scripts.js"></script>
+    <script src="scripts.js" defer></script>
     <link href="styles.css" rel="stylesheet">
-    <title>Document</title>
+    <title>ROCK, PAPER, SCISSORS GAME: GO!</title>
 </head>
 
 <body>
+    <main id="game">
+        <div class="player_container">
 
+            <div class="choice_container">
+
+                <div class="player_choice">
+                    <img src="images/rock.PNG">
+                </div>
+
+                <div class="player_choice">
+                    <img src="images/paper.PNG">
+                </div>
+
+                <div class="player_choice">
+                    <img src="images/scissors.PNG">
+                </div>
+
+            </div>
+
+
+            <h2 class="player_name">
+                YOUR THROW
+            </h2>
+
+        </div>
+
+
+
+        <div class="player_container">
+
+            <div class="choice_container">
+
+                <div id="cpu_choice">
+                    <img src="images/question-mark.PNG">
+                </div>
+
+            </div>
+
+            <h2 class="player_name">
+                COMPUTER THROW
+            </h2>
+
+        </div>
+
+
+        <div id = "results">
+            <h2>RESULT: YOU WIN!</h2>
+            <button>Play Again?</button>
+        </div>
+
+    </main>
 </body>
 
 </html>
