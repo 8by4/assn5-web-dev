@@ -9,7 +9,7 @@ const replay_button = document.getElementById('again');
 
 let decided = false;
 let index = 0;
-let cpu_choice;
+let cpu_choice = document.querySelector('#cpu_choice');
 let player_throw;
 let image_timer = null;
 
@@ -43,7 +43,7 @@ function choose() {
 }
 
 function computer_throw() {
-    cpu_choice = document.querySelector('#cpu_choice');
+
     index = 0;
     image_timer = setInterval(thinking, 500);
 
