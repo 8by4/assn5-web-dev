@@ -57,13 +57,8 @@ function computer_throw() {
 
         results(player_throw, cpu_throw);
 
-        decided = false;
 
     }, 3000);
-
-
-
-
 
 }
 
@@ -151,4 +146,7 @@ function count_resetter() {
 
 
 
-replay_button.addEventListener('click', () => window.location.reload());
+replay_button.addEventListener('click', () => {
+    decided = false;
+    window.location.reload()
+});
