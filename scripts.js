@@ -3,7 +3,7 @@ let total_losses = parseInt(localStorage.getItem('total_losses')) || 0;
 let total_ties = parseInt(localStorage.getItem('total_ties')) || 0;
 
 const player_choice = document.querySelectorAll(".player_choice")
-const options = ["images/rock.png", "images/paper.png", "images/scissors.png"];
+const options = ["./images/rock.png", "./images/paper.png", "./images/scissors.png"];
 const replay_button = document.getElementById('again');
 
 
