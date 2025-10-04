@@ -13,6 +13,9 @@ let cpu_choice = document.querySelector('#cpu_choice');
 let player_throw;
 let image_timer = null;
 
+cpu_choice.src = options[0];
+cpu_choice.onerror = () => console.log("Image failed to load:", cpu_choice.src);
+
 
 for (let i = 0; i < player_choice.length; i++) {
     const element = player_choice[i];
