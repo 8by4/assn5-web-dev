@@ -59,6 +59,14 @@
     padding: 1%; 
 }
 
+#cpu_choice{
+    display: flex;
+    flex-direction: row;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 1%; 
+}
+
 
 #game{
     display: flex;
