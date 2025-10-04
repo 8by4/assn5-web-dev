@@ -10,7 +10,7 @@
     margin: 20px auto;
 }
 
-#results {
+#results_container {
     display: flex;
     flex-direction: row;
     border: 2px solid black;
@@ -20,7 +20,10 @@
     width: fit-content;
     padding: 20px;
     margin: 20px auto;
+    gap: 20px;
 }
+
+
 
 
 .player_name {
@@ -48,7 +51,7 @@
 
 
 
-#cpu_choice {
+#cpu_choice_container {
     display: flex;
     flex-direction: row;
     border: 2px solid black;
